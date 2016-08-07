@@ -9,3 +9,8 @@ load 'rails/tasks/statistics.rake'
 Bundler::GemHelper.install_tasks
 
 require 'engine_cart/rake_task'
+
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
+
+task :spec => ["engine_cart:generate"]
