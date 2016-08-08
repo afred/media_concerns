@@ -1,3 +1,3 @@
-= MediaConcerns
+# MediaConcerns
 
-This project rocks and uses MIT-LICENSE.
+Add metadata fields and behaviors specific to video, audio, and image files.
